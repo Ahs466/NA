@@ -18,7 +18,5 @@ public class Main {
 
         int num3 = 8;
         System.out.printf("%s %s %s\n", num3++, num3, ++num3);
-
-
     }
 }
