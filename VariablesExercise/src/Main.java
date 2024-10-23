@@ -18,5 +18,27 @@ public class Main {
 
         int num3 = 8;
         System.out.printf("%s %s %s\n", num3++, num3, ++num3);
+
+        int x = 3, y = 5;
+        if (x >= 0)
+            if (y < x)
+                System.out.println("y is less than x");
+            else // added in alternative conditionsS
+                if (y > x)
+                    System.out.println("y is greater than x");
+                else
+                    System.out.println("y is equal to x");
+        else
+            System.out.println("x is negative");
+
+        int x2 = 7;
+        if (x2 == 0) // used ==
+            System.out.println("x is 0");
+        else
+            System.out.println("x is not 0");
+
+        int x3 = 15, y3 = 24;
+        if (x % 2 == 0 && y % 2 == 0) // removed semicolon
+            System.out.println("x and y are even numbers");
     }
 }
