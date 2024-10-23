@@ -38,7 +38,23 @@ public class Main {
             System.out.println("x is not 0");
 
         int x3 = 15, y3 = 24;
-        if (x % 2 == 0 && y % 2 == 0) // removed semicolon
+        if (x3 % 2 == 0 && y3 % 2 == 0) // removed semicolon
             System.out.println("x and y are even numbers");
+
+        int x4 = 10;
+        while (x4 > 0) // removed semicolon
+            System.out.println(x4--);
+        System.out.println("We have lift off!");
+
+        int x5 = 10;
+        while (x5 > 0) {
+            System.out.println("x is " + x5);
+            x5--; // decremented x5 at end of loop
+        }
+
+        int sum = 0;
+        for (int i = 0; i < 10; sum += i++ ) // declared and assigned i
+            System.out.println("Sum is " + sum);
+
     }
 }
